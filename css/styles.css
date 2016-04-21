@@ -77,6 +77,8 @@ color: #D2852E;
 	position: relative;
 }
 
+}
+
 #active-site:before {
 	/*width: 10px;
 	height: 10px;
@@ -187,8 +189,11 @@ footer {
 	background-color: #D2852E;
 	margin-bottom: 0;
 	text-align: left;
-	margin-bottom: 0;
-	height: 200px;
+		height: 150px;
+	width: 1150px;
+	margin: 0 auto;
+	margin-top: 100px;
+	box-shadow: 1px 1px 15px 1px #333;
 
 }
 #social {
@@ -209,7 +214,8 @@ footer {
 	border: 1px solid #333333;
 	position: relative;
 }
-.tours {
+.tours a img:hover {
+	border: #D2852E;
 
 }
 #phone {
@@ -238,7 +244,7 @@ footer div {
 	width: 950px;
 }
 footer {
-	width: 950px;
+	width: 1150px;
 	margin: 0 auto;
 	margin-top: 100px;
 	box-shadow: 1px 1px 15px 1px #333;
@@ -270,4 +276,17 @@ footer {
 #book-now span:hover {
 	color: #D2852E;
 	background-color: #333333;
+}
+footer li {
+	display: inline-block;
+	margin-top: 60px;
+	margin-left: 60px;
+}
+footer hr {
+	background-color: #333333;
+	height: 1px;
+	border: none;
+}
+footer li a:hover {
+	color: #333333;
 }
