@@ -11,8 +11,8 @@ html {
   background-size: cover;
 }
 * { border-radius: 5px;
-	
-	
+
+
 }
 nav {
 	/*margin: -20px -10px;*/
@@ -23,8 +23,8 @@ nav {
 
 }
 #logo h1 a{
-	text-shadow: 1px 1px 1px #333333; 
-		
+	text-shadow: 1px 1px 1px #333333;
+
 }
 #logo hr {
 	height: 5px;
@@ -38,7 +38,7 @@ nav {
 	display: block;
 	margin-left: 100px;
 	margin-top: 5px;
-	font-size: 18px; 
+	font-size: 18px;
 }
 
 #logo {
@@ -46,8 +46,8 @@ nav {
 	margin-top: 5px;
 	margin-left: 20px;
 	font-size: 25px;
-	
-	
+
+
 }
 #logo a:hover,
 #logo hr:hover {
@@ -55,10 +55,10 @@ nav {
 
 }
 #logo h1 {
-	text-shadow: 1px 1px 10px 1px #333; 
+	text-shadow: 1px 1px 10px 1px #333;
 }
 #main-nav ul{
-	margin-top: 0;		
+	margin-top: 0;
 }
  #main-nav {
  float: right;
@@ -66,7 +66,7 @@ nav {
  width: 65%;
 background: rgba(255,255,255,0.5);
 box-shadow: 0.5px 0.5px 15px 1px #333;
-text-shadow: 1px 1px 0.5px #333333; 
+text-shadow: 1px 1px 0.5px #333333;
 
 
 }
@@ -124,7 +124,7 @@ color: #D2852E;
 #location ul li{
 float: left;
 /*content: '';*/
-margin-left: 32px;	
+margin-left: 32px;
 font-size: 20px;
 }
 
@@ -134,7 +134,7 @@ font-size: 20px;
 }
 li {
 	list-style: none;
-    font-weight: bold; 
+    font-weight: bold;
 }
 a {
 	text-decoration: none;
@@ -152,11 +152,11 @@ a {
 }
 .tours p {
 	width: 300px;
-} 
+}
 .tours {
 	display: inline-block;
 	margin-left: 10px;
-	height: 400px;
+	
 
 }
 
@@ -165,9 +165,8 @@ main {
 	width: 950px;
 	margin: 0 auto;
 	margin-top: 100px;
-	height: 400px;
 	box-shadow: 1px 1px 15px 1px #333;
-	height: 300px;
+
 
 
 }
@@ -198,10 +197,10 @@ footer {
 }
 #social {
 	position: absolute;
-	right: 200px; 
+	right: 200px;
 	margin-top: 65px;
 	font-size: 30px;
-	text-shadow: 1px 1px 1px #333333; 
+	text-shadow: 1px 1px 1px #333333;
 
 }
 #social i {
@@ -223,7 +222,7 @@ footer {
 	margin-top: 70px;
 	right: 500px;
 	font-size: 24px;
-	text-shadow: 1px 1px 1px #333333; 
+	text-shadow: 1px 1px 1px #333333;
 
 }
 #phone span {
@@ -289,4 +288,17 @@ footer hr {
 }
 footer li a:hover {
 	color: #333333;
+}
+
+#booking {
+
+	width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+#booking h1 {
+	font-size: 17px;
+}
+#submit {
+	color:#D2852E;
 }
