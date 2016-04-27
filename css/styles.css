@@ -249,7 +249,8 @@ footer {
 	margin-top: 100px;
 	box-shadow: 1px 1px 15px 1px #333;
 }
-#book-now {
+#book-now,
+#about {
 	margin-top: 100px;
 	margin-left: 200px;
 	background-color: rgba(255,255,255, 0.5);
@@ -319,7 +320,7 @@ footer li a:hover {
 .about:first-child p{
 	float: right;
 	width: 500px; 
-margin-top: 30px;
+margin-top: 50px;
 margin-right: 70px}
 
 	.about:last-child img {
@@ -331,6 +332,11 @@ margin-right: 70px}
 	.about:last-child p{
 	float: left;
 	width: 500px; 
-   margin-top: 30px;
+   margin-top: 50px;
 margin-left: 70px;
+}
+
+#about {
+width: 600px;
+font-weight:  200;
 }
