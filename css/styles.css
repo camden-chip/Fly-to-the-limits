@@ -4,7 +4,7 @@ margin: 0 0;
 font-family: arial;
  }
 html {
-	background: url(http://www.nzstory.govt.nz/thumbnails/01CWNZS_NZS_7777-thumb.jpg) no-repeat center center fixed;
+	background: url(../images/background.jpg) no-repeat center center fixed;
 	webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -206,7 +206,8 @@ footer {
 #social i {
 	margin-right: 20px;
 }
-.tours img {
+.tours img,
+.about img {
 	width: 300px;
 	height: 200px;
 	margin-top: 10px;
@@ -301,4 +302,35 @@ footer li a:hover {
 }
 #submit {
 	color:#D2852E;
+}
+
+
+.about:after {
+	content: '';
+	display: block;
+	clear: both;
+
+}
+.about:first-child img {
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.about:first-child p{
+	float: right;
+	width: 500px; 
+margin-top: 30px;
+margin-right: 70px}
+
+	.about:last-child img {
+	float: right;
+	margin-right: 30px;
+	margin-bottom: 20px
+}
+
+	.about:last-child p{
+	float: left;
+	width: 500px; 
+   margin-top: 30px;
+margin-left: 70px;
 }
